@@ -1,0 +1,32 @@
+{
+  "name": "piecemeta-migrate",
+  "version": "0.1.0",
+  "description": "Migrate pre 0.10.0 data for the PieceMeta API server",
+  "main": "migrate.js",
+  "engines": "~4.2.0",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PieceMeta/piecemeta-migrate.git"
+  },
+  "keywords": [
+    "piecemeta",
+    "tools"
+  ],
+  "author": "Anton Koch <antonymousfeedback@gmail.com> (http://htmhell.de)",
+  "license": "GPL-2.0",
+  "bugs": {
+    "url": "https://github.com/PieceMeta/piecemeta-migrate/issues"
+  },
+  "homepage": "https://github.com/PieceMeta/piecemeta-migrate#readme",
+  "dependencies": {
+    "assert-plus": "^0.1.5",
+    "bluebird": "^3.0.5",
+    "mongoose": "^4.2.4",
+    "mongoose-unique-validator": "^0.6.0",
+    "node-lmdb": "https://github.com/xygroup/node-lmdb.git",
+    "node-schema-object": "^2.0.1"
+  }
+}
